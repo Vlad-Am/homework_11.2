@@ -4,7 +4,7 @@ def foo(some_str):
 
 
 def capitalize_words(string):
-    """делает заглавными первые буквы каждого слова в строке"""
+    """делает заглавными первые буквы каждого слова в строчке"""
     words = string.split()
     capitalized_words = [word.capitalize() for word in words]
     return ' '.join(capitalized_words)
